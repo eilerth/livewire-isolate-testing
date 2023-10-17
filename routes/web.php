@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/example-a', \App\Livewire\ExampleA::class);
+Route::get('/example-b', \App\Livewire\ExampleB::class);
+Route::get('/example-c', \App\Livewire\ExampleC::class);
+Route::get('/example-d', \App\Livewire\ExampleD::class);
+
 Route::get('/', function () {
     return view('welcome');
 });
