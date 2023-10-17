@@ -1,6 +1,8 @@
 # Laravel Livewire "isolate" Testing 
 This project is to demonstrate a few use cases, particularly ones that are not working as expected.
 
+> **_TIP:_**  If using valet and experiencing awkward behavior where it almost seems as though php is running a cached version of the livewire codebase, run `valet restart`... that cleared up a very confusing issue for me that I burned way too much time on.
+
 ## Setup
 - Clone eilerth/livewire (`git clone https://github.com/eilerth/livewire.git`) to the same directory as this project (if you haven't already)
 - run `composer install`
